@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import Login from '../views/Login.vue';
 import Register from '../views/Register.vue';
 import Recovery from '../views/Recovery.vue';
+import Error from '../views/Error.vue';
 
 Vue.use(VueRouter);
 
@@ -35,6 +36,11 @@ const routes = [
 		path: '/recovery',
 		name: 'recovery',
 		component: Recovery,
+	},
+	{
+		path: '/error',
+		name: 'error',
+		component: Error,
 	},
 ];
 

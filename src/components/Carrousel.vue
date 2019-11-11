@@ -121,6 +121,36 @@
           <p class="carrousel-item__details--subtitle">2019 16+ 114 minutos</p>
         </div>
       </div>
+      <div class="carrousel-item">
+        <img
+          class="carrousel-item__img"
+          src="https://images.pexels.com/photos/2832078/pexels-photo-2832078.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="people"
+        />
+        <div class="carrousel-item__details">
+          <div>
+            <img src="../assets/play.png" alt="Play" />
+            <img src="../assets/plus.png" alt="Plus" />
+          </div>
+          <p class="carrousel-item__details--title">Titulo descriptivo</p>
+          <p class="carrousel-item__details--subtitle">2019 16+ 114 minutos</p>
+        </div>
+      </div>
+      <div class="carrousel-item">
+        <img
+          class="carrousel-item__img"
+          src="https://images.pexels.com/photos/2832078/pexels-photo-2832078.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="people"
+        />
+        <div class="carrousel-item__details">
+          <div>
+            <img src="../assets/play.png" alt="Play" />
+            <img src="../assets/plus.png" alt="Plus" />
+          </div>
+          <p class="carrousel-item__details--title">Titulo descriptivo</p>
+          <p class="carrousel-item__details--subtitle">2019 16+ 114 minutos</p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -135,6 +165,9 @@ export default {};
   width: 100%;
   padding: 30px;
   position: relative;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 .carrousel__container {
   white-space: nowrap;
