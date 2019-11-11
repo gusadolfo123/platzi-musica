@@ -2,12 +2,20 @@
   <section class="main">
     <h2 class="main__title">Que quieres ver hoy?</h2>
     <input type="text" class="input" placeholder="Buscar..." />
+    <h2 class="categories_title">Mi Lista</h2>
     <carrousel></carrousel>
   </section>
 </template>
 
 
 <style scoped>
+.categories_title {
+  color: whitesmoke;
+  font-size: 16px;
+  /* position: absolute; */
+  padding-left: 30px;
+  width: 100%;
+}
 .main {
   background: linear-gradient(#21c08b, #ab88ff);
   display: flex;

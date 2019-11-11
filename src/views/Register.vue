@@ -5,7 +5,7 @@
       <form class="register__container--form">
         <input type="text" class="input" placeholder="Nombre" />
         <input type="email" class="input" placeholder="Correo" />
-        <input type="password" class="input" placeholder="Contraseña" />
+        <input type="password" autocomplete="false" class="input" placeholder="Contraseña" />
         <button class="button">Registrarse</button>
       </form>
       <p class="register__container--login">

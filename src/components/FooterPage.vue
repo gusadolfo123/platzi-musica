@@ -30,4 +30,10 @@ export default {
 .footer a:hover {
   text-decoration: underline;
 }
+@media only screen and (max-width: 600px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
 </style>

@@ -131,14 +131,14 @@ export default {};
 
 <style scoped>
 .carrousel {
+  overflow: scroll;
   width: 100%;
-  /* overflow: scroll; */
   padding: 30px;
   position: relative;
 }
 .carrousel__container {
   white-space: nowrap;
-  margin: 70px 0px;
+  margin: 40px 0px;
   padding-bottom: 10px;
   text-align: center;
 }

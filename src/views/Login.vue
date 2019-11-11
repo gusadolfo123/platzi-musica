@@ -4,7 +4,7 @@
       <h2>Iniciar Sesion</h2>
       <form class="login__container--form">
         <input type="text" class="input" placeholder="Correo" />
-        <input type="password" class="input" placeholder="Contraseña" />
+        <input type="password" autocomplete="false" class="input" placeholder="Contraseña" />
         <button class="button">Iniciar Session</button>
         <div class="login__container--remember-me">
           <label for="box1">
@@ -144,5 +144,13 @@ export default {
   letter-spacing: 1px;
   height: 50px;
   margin: 10px 0px;
+}
+@media only screen and (max-width: 600px) {
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+  }
 }
 </style>
