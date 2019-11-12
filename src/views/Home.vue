@@ -8,7 +8,9 @@
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
+$color: red;
+
 .categories_title {
   color: whitesmoke;
   font-size: 16px;
